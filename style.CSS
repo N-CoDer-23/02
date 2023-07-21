@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    color: red;
+    text-align: center;
+    /* shorthan */
+    /* duration--timing--delay--property */
+    transition: 1s linear 0s all;
+
+}
+.title:hover{
+    color: blue;
+    font-size: 35px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background: green;
+   /* davomiyligi */
+    transition-duration: 1s;
+    /* kutiw vaqti */
+    transition-delay: 1s;
+    /* holati */
+    transition-timing-function: linear;
+    /* hossasi */
+    transition-property: all;
+
+
+}
+.box:hover{
+    margin-left: 50px;
+    background: red;
+    border-radius: 50%;
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    border: 2px solid red;
+    background: pink;
+
+    background-image: url(./IMG_20210705_131552_267.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    text-align: center;
+    padding-top: 180px;
+    font-size: 120px;
+    color: red;
+}

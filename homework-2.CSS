@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background: url(./shutterstock_281493026.jpg) no-repeat center/cover;
+    background-color: greenyellow;
+}
+.icons{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 15px;
+    color: white;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    
+
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.navbar h1{
+    color: rgb(252, 72, 7);
+}
+.navbar b{
+    color: white;
+}
+.title{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: 450px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.title li:hover{
+    color: red;
+    cursor: pointer;
+    transform: scale(1.2)
+}
+.button{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid  rgb(252, 72, 7);
+    color:  rgb(252, 72, 7);
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+.text{
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+.text p{
+    color: rgb(207, 202, 202);
+}
+.btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(rgb(255, 187, 0),rgb(226, 13, 13)) ;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: gold;
+    color: aqua;
+    cursor: pointer;
+    transform: scale(1.2)
+    
+}
+.button:hover{
+    color: springgreen;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.Now{
+    width: 100px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-indent: 5px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+}
